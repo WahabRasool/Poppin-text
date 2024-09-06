@@ -1,0 +1,29 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: #1c1c1c;
+    color: white;
+    font-size: calc(100% + 5vw);
+    font-family: system-ui, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      font-size: calc(100% + 3vw);
+    }
+  }
+  
+  .pop-char {
+    opacity: 0;
+  }
+  
+  .static-text span,
+  .animated-text span {
+    text-shadow: 1px 1px 4px white;
+  }
